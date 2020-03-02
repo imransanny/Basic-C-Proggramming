@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+ int main()
 {
     int xA[3][3]={{1,2,3},{4,5,6},{6,7,8}},a,b;
     int xB[3][3]={{1,2,3},{4,5,6},{7,8,9}},i,c,d,e,j;
