@@ -1,19 +1,20 @@
 #include<stdio.h>
 int main()
 {
-    int a,b,i,c=0;
-    printf("input 2 number : ");
+    int a,b,i,c=0,d;
     scanf(" %d %d", &a, &b);
     int x[100];
-    printf("enter the number :\n");
+
     for(i=0 ; i<a ; i++)
     {
         scanf("%d  ",&x[i]);
     }
-    for(i=0; i<a; i++){
-      if( x[i] >= x[b] ){
+    x[i]=b;
+    for(d=0; d<a; d++){
+      if( x[d] >= x[b] ){
             c++;
         }
+       // if(x[i])
     }
     printf(" %d " , c);
 }
