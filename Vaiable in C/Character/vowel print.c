@@ -1,13 +1,14 @@
 #include<stdio.h>
 int main(){
- char x ;
+ char x[100] ;
  int c=0,n,i;
- scanf("%d",&n);
+ gets(x);
+ n=strlen(x);
 
     for(i=0;i<n;i++){
-         scanf(" %c",&x);
 
-  if(x=='a' || x=='e'||x=='i'||x=='o'||x=='u'){
+  if((x[i]=='a' || x[i]=='e'||x[i]=='i'||x[i]=='o'||x[i]=='u')&&(x[i]=='A' || x[i]=='E' || x[i]=='I'||x[i]=='O'|| x[i]=='U'))
+  {
     c++;
  }
  }
