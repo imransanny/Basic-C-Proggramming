@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
   int main(){
 
     char x[100] ;
@@ -6,7 +7,7 @@
     gets(x);
     p=strlen(x);
 
-    for(i=0 ; i<p ; i++){
+   // for(i=0 ; i<p ; i++){
 
         for(i=0 ; i<p ; i++){
 
@@ -22,7 +23,7 @@
             }}
         }
 
-    }}
+    }
 
    // for(t=0 ; t<p ;t++){
     printf("%s",x);

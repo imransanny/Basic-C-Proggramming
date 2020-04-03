@@ -12,7 +12,7 @@ int main() {
 
          if(x[i]==' ' && x[i+1]==' '){
             x[i] = '0';
-         printf("%s", x);
+        //
          }
       }
 
@@ -22,7 +22,7 @@ int main() {
             c++;
 
         }
-     }
+     }printf("%s\n", x);
      printf("%d",c+1);
 
 
